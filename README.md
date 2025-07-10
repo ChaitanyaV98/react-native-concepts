@@ -73,6 +73,12 @@ When you want to forcefully reload, for example to reset the state of your app, 
 - **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
 - **iOS**: Press <kbd>R</kbd> in iOS Simulator.
 
+## React Native Concepts.
+
+- **View**:
+- We can kind of compare view with div in React.
+- View is a container that supports layoout with flexbox, styles and some of the accessibility controls.
+
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
