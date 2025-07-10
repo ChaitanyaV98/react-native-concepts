@@ -1,13 +1,19 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 function App(): React.JSX.Element {
   return (
     <View style={styles.container}>
+      {/*View Component */}
       <View style={styles.boxContainer}>
         <View style={styles.redBox} />
         <View style={styles.blueBox} />
         <View style={styles.greenBox} />
       </View>
+      {/*Text Component */}
+      <Text style={styles.firstText}>hello, React Native</Text>
+      <Text style={styles.nestedText}>
+        Text comp can be <Text style={styles.innerNestedText}>nested</Text>
+      </Text>
     </View>
   );
 }
@@ -32,6 +38,16 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     backgroundColor: 'green',
+  },
+  firstText: {
+    fontSize: 30,
+  },
+  nestedText: {
+    fontSize: 18,
+  },
+  innerNestedText: {
+    fontWeight: 'bold',
+    color: 'green',
   },
 });
 

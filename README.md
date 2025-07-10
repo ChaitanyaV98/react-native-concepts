@@ -75,9 +75,15 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 ## React Native Concepts.
 
-- **View**:
+**View**:
+
 - We can kind of compare view with div in React.
 - View is a container that supports layoout with flexbox, styles and some of the accessibility controls.
+
+**Text**:
+
+- Used to display texts of any kind.
+- We can also nest text components one inside the other
 
 ## Congratulations! :tada:
 
