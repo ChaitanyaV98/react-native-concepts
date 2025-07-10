@@ -5,18 +5,18 @@ import ScrollViewComponent from './src/components/ScrollView';
 
 function App(): React.JSX.Element {
   return (
-    <View style={styles.container}>
-      <ScrollView
-        contentContainerStyle={styles.scrollViewContent}
-        bounces={true}
-        nestedScrollEnabled={true}
-      >
+    <ScrollView
+      contentContainerStyle={styles.scrollViewContent}
+      bounces={true}
+      nestedScrollEnabled={true}
+    >
+      <View style={styles.container}>
         <Basics />
         <Basics />
         <TextInputComponent />
         <ScrollViewComponent />
-      </ScrollView>
-    </View>
+      </View>
+    </ScrollView>
   );
 }
 
