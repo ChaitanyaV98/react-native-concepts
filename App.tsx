@@ -2,6 +2,7 @@ import { ScrollView, StyleSheet, View } from 'react-native';
 import Basics from './src/components/Basics';
 import TextInputComponent from './src/components/TextInput';
 import ScrollViewComponent from './src/components/ScrollView';
+import StylingDemo from './src/components/Styling';
 
 function App(): React.JSX.Element {
   return (
@@ -16,6 +17,8 @@ function App(): React.JSX.Element {
         <TextInputComponent />
         <ScrollViewComponent />
       </View>
+
+      <StylingDemo />
     </ScrollView>
   );
 }
