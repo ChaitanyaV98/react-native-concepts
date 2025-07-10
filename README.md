@@ -85,6 +85,18 @@ When you want to forcefully reload, for example to reset the state of your app, 
 - Used to display texts of any kind.
 - We can also nest text components one inside the other
 
+**Image**:
+
+- Helps us to render image components
+- uses source to add relative and absolute path
+- pass the path to source and pass relative path of image
+
+**Button**:
+
+- Import from react native
+- pass title for button text and onPress
+- add the styling and functionality
+
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
