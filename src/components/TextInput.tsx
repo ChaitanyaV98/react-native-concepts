@@ -10,6 +10,7 @@ function TextInputComponent(): React.JSX.Element {
         style={styles.input}
         placeholder="Enter some text here"
         onChangeText={setValue}
+        value={value}
       />
     </View>
   );
